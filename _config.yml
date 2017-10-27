@@ -4,10 +4,10 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: saba
 subtitle:
 description:
-author: John Doe
+author: saba
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
 date_format: '%Y-%m-%d'
@@ -78,7 +78,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: ""
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -89,7 +89,7 @@ rss:
 #since: 2015
 
 # icon between year and author @Footer
-authoricon: heart
+#authoricon: heart #commented out by me
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -329,8 +329,8 @@ post_wordcount:
 # Declare license on posts
 post_copyright:
   enable: false
-  license: CC BY-NC-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 
 
