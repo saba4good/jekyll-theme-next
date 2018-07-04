@@ -4,7 +4,6 @@ categories: MISC
 tags: MA, moving average
 ---
 
-대체 왜 안되는 거지
 http://blog.naver.com/PostView.nhn?blogId=swatpjs&logNo=220256081171
 
 http://pepic.tistory.com/255
