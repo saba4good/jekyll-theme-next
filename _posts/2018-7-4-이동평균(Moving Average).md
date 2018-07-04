@@ -18,7 +18,7 @@ http://www.analog.com/media/en/technical-documentation/dsp-book/dsp_book_Ch15.pd
 
 
 ### SMA(Simple Moving Average) - 단순이동평균
-이동평균의 가장 간단한 방식으로, 주어진 구간에서의 평균을 산출하는 방식이다
+단순히 주어진 구간에서의 평균을 산출하는 계산방법이다.
 
 
 ### LWMA(Linear Weighted Moving Average) - 선형가중이동평균
