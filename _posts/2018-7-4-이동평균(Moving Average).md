@@ -37,7 +37,11 @@ SMA의 둔한 반응속도를 보완할 수 있는 계산방법으로, 오래된
 최근의 데이터에 더 높은 가중치를 부여하여 오래된 값의 가중치를 낮추는 방법으로, LWMA보다 더 민감하다. 지수가 2인 이동평균은 DEMA, 지수가 3인 이동평균은 TEMA라고 부른다.
 
 $$
-MA(P, n) = \frac{P_t + P_t-1 + P_t-2 + ... +P_{t-n}}{n}
+EMA(value, n) = \alpha \times price_i + (1 - \alpha) \times EMA(price, n)_{i-1}
+$$
+
+$$
+\alpha = \frac{2}{n+1}
 $$
 
 P는 데이터값, t는 시점, n은 이동평균기간을 의미한다.
