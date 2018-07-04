@@ -10,7 +10,7 @@ http://www.analog.com/media/en/technical-documentation/dsp-book/dsp_book_Ch15.pd
 
 하드웨어 신호처리중 이동평균과 관련해서 몇가지를 정리한 것이다.
 
-이동평균(Moving Average, MA)이란 2개 이상의 연속된 데이터 값의 평균을 연속적으로 계산해내는 평균화 방법이다.
+이동평균(Moving Average)이란 2개 이상의 연속된 데이터 값의 평균을 연속적으로 계산해내는 평균화 방법이다.
 
 ![](http://ktword.co.kr/img_data/3665_1.JPG)
 
