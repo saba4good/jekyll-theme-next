@@ -54,6 +54,7 @@ $$
 ![](https://www.norwegiancreations.com/wp-content/uploads/2016/08/dema3-1140x641.png)
 청색이 본래 신호, 황색이 EMA, 적색이 DEMA 그래프이다.
 
+아래는 DEMA를 코드로 구현한 것이다.
 ```
 int EMA_function(float alpha, int latest, int stored);
  
