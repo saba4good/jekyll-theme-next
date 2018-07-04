@@ -32,7 +32,7 @@ paginate: 10
   #paginate_path: "/page:num/"
 
 # Handling Reading
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "Gemfile", "Gemfile.lock", "README_en.md", "vendor"]
 
 # Separator
 #excerpt_separator: <!-- more -->
@@ -40,6 +40,8 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 # Code Highlighter
 ## 'pygments' is unsupported on GitHub Pages now.
 highlighter: rouge
+highlight:
+  line_number: true
 
 #### Markdown Processors
 ## 'redcarpet' is unsupported on GitHub Pages now.
@@ -64,9 +66,8 @@ feed:
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/
-gems:
-# jemoji conficts with toc in some no-ascii post
-# - jemoji
+plugins:
+ - jemoji
  - jekyll-sitemap
  - jekyll-feed
 
@@ -405,6 +406,15 @@ changyan:
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: your uid
+
+# Support for gitalk comments system.
+gitalk:
+  enable: false
+  clientID: # 54730ddf7b9420460c03
+  clientSecret: # c05684701b25ff1c19ea0c01ce4d80c125e0707d
+  repo: # colingpt.github.io
+  owner: # colingpt
+  admin: # colingpt
 
 # Baidu Share
 # Available value:
