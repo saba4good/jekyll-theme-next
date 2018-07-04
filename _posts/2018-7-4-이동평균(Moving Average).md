@@ -4,10 +4,10 @@
 ---
 
 <hr>
-<h2 id="title-이동평균moving-averagedate-2018-7-4-140000categories-hardwaretags-전자공학-ma-moving-average-이동평균">title: 이동평균(Moving Average)<br>
+<h2 id="title-이동평균moving-averagedate-2018-7-4-140000categories-hardwaretags-ma-moving-average">title: 이동평균(Moving Average)<br>
 date: 2018-7-4 14:00:00<br>
 categories: hardware<br>
-tags: 전자공학, MA, moving average, 이동평균</h2>
+tags: MA, moving average</h2>
 <p>하드웨어 신호처리중 이동평균과 관련해서 몇가지를 정리한 것이다.</p>
 <p>이동평균(Moving Average, MA)이란 2개 이상의 연속된 데이터 값의 평균을 연속적으로 계산해내는 평균화 방법이다.</p>
 <p><img src="http://ktword.co.kr/img_data/3665_1.JPG" alt=""></p>
