@@ -20,12 +20,12 @@ http://www.alglib.net/time-series/moving-average-filter.php
 
 ![](http://ktword.co.kr/img_data/3665_1.JPG)
 
+일반적으로 전 구간을 대상으로 평균을 내기에는 정확도가 떨어지므로, 평균을 산출할 데이터의 개수(지난 2시간의 데이터, 최신 데이터 200개···)를 정한 후, 그 데이터로만 평균을 내는 경우가 많다.
+
 
 
 ### SMA(Simple Moving Average) - 단순이동평균
 이동평균의 가장 일반적인 방식으로, 그냥 값을 다 더하고 나누면 된다
-
-전 구간을 대상으로 평균을 내기에는 정확도가 떨어지므로, 평균을 산출할 데이터의 개수를 정한 후, 그 데이터로만 평균을 내는 경우가 많다.
 
 
 ### EMA(Exponential Moving Average) - 지수이동평균
