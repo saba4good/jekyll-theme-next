@@ -22,6 +22,8 @@ http://www.analog.com/media/en/technical-documentation/dsp-book/dsp_book_Ch15.pd
 
 
 ### LWMA(Linear Weighted Moving Average) - 선형가중이동평균
+LWMA와 WMA의 차이는 조금 더 봐야한다. 정확하지 않다.
+
 SMA의 둔한 반응속도를 보완할 수 있는 계산방법으로, 오래된 값이라도 완전히 무시하지는 않고 반영시키나, 가중치를 낮춘다.
 
 예를 들어 10개의 데이터를 대상으로 EMA를 구한다면, 가장 최근의 데이터에는 10을 곱해주고, 그 다음 데이터에는 9를 곱해주는 식으로 합을 구해서 데이터의 개수로 나눠준다.
