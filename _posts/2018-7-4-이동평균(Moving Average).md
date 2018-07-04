@@ -3,10 +3,6 @@
 
 ---
 
-<hr>
-<h2 id="title-이동평균moving-averagecategories-hardwaretags-ma-moving-average">title: 이동평균(Moving Average)<br>
-categories: hardware<br>
-tags: MA, moving average</h2>
 <p>대체 왜 안되는 거지<br>
 <a href="http://blog.naver.com/PostView.nhn?blogId=swatpjs&amp;logNo=220256081171">http://blog.naver.com/PostView.nhn?blogId=swatpjs&amp;logNo=220256081171</a></p>
 <p><a href="http://pepic.tistory.com/255">http://pepic.tistory.com/255</a></p>
