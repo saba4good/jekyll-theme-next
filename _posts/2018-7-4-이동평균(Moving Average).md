@@ -33,20 +33,20 @@ SMA의 둔한 반응속도를 보완할 수 있는 계산방법으로, 오래된
 EMA의 공식은 아래와 같다.
 
 $$
-S_1 = Y_1
+EMA_1 = Y_1
 $$
 
 $$
-S_t = \alpha \times Y_t + (1-\alpha) \times S_{t-1}
+EMA_t = \alpha \times value_t + (1-\alpha) \times EMA_{t-1}
 $$
 
-S_t는 t 시점에서의 EMA 산출값, Y_t는 t 시점에서의 입력 데이터값이다.
+value_t는 t 시점에서의 입력 데이터값이다.
 α는 [0,1]에서 정의된 상수로, 값이 낮을수록 계산하는 샘플 수가 적어서 반응이 빨라지고, 높을수록 계산하는 샘플 수가 많아져 둔해진다.
 
 123
 
 $$
-EMA(value, n)_i = \alpha \times price_i + (1 - \alpha) \times EMA(price, n)_{i-1}
+EMA(value, n)_i = \alpha \times value_n + (1 - \alpha) \times EMA(price, n)_{i-1}
 $$
 
 $$
