@@ -7,7 +7,8 @@
 <h2 id="title-이동평균moving-averagecategories-hardwaretags-ma-moving-average">title: 이동평균(Moving Average)<br>
 categories: hardware<br>
 tags: MA, moving average</h2>
-<p><a href="http://blog.naver.com/PostView.nhn?blogId=swatpjs&amp;logNo=220256081171">http://blog.naver.com/PostView.nhn?blogId=swatpjs&amp;logNo=220256081171</a></p>
+<p>대체 왜 안되는 거지<br>
+<a href="http://blog.naver.com/PostView.nhn?blogId=swatpjs&amp;logNo=220256081171">http://blog.naver.com/PostView.nhn?blogId=swatpjs&amp;logNo=220256081171</a></p>
 <p><a href="http://pepic.tistory.com/255">http://pepic.tistory.com/255</a></p>
 <p><a href="https://medium.com/@igniter.yoo/%EA%B8%B0%EC%88%A0%EC%A0%81-%EB%B6%84%EC%84%9D%EC%9D%98-%EA%B8%B0%EC%B4%88-basics-of-technical-analysis-10-%EC%9D%B4%EB%8F%99-%ED%8F%89%EA%B7%A0-46b0d8ddf576">https://medium.com/@igniter.yoo/기술적-분석의-기초-basics-of-technical-analysis-10-이동-평균-46b0d8ddf576</a></p>
 <p><a href="http://www.analog.com/media/en/technical-documentation/dsp-book/dsp_book_Ch15.pdf">http://www.analog.com/media/en/technical-documentation/dsp-book/dsp_book_Ch15.pdf</a></p>
