@@ -14,7 +14,12 @@ tags: 전자공학, MA, moving average, 이동평균</h2>
 </code></pre>
 <p><img src="http://ktword.co.kr/img_data/3665_1.JPG" alt=""></p>
 <h3 id="smasimple-moving-average---단순이동평균">SMA(Simple Moving Average) - 단순이동평균</h3>
+<p>단순이동평균의 수식은 아래와 같다.<br>
+<span class="katex--display"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>M</mi><mi>A</mi><mo>(</mo><mi>v</mi><mi>a</mi><mi>l</mi><mi>u</mi><mi>e</mi><mo separator="true">,</mo><mi>n</mi><mo>)</mo><mo>=</mo></mrow><annotation encoding="application/x-tex">
+MA(value, n) = 
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="strut" style="height: 0.75em;"></span><span class="strut bottom" style="height: 1em; vertical-align: -0.25em;"></span><span class="base"><span class="mord mathit" style="margin-right: 0.10903em;">M</span><span class="mord mathit">A</span><span class="mopen">(</span><span class="mord mathit" style="margin-right: 0.03588em;">v</span><span class="mord mathit">a</span><span class="mord mathit" style="margin-right: 0.01968em;">l</span><span class="mord mathit">u</span><span class="mord mathit">e</span><span class="mpunct">,</span><span class="mord mathit">n</span><span class="mclose">)</span><span class="mrel">=</span></span></span></span></span></span></p>
 <h3 id="emaexponential-moving-average---지수이동평균">EMA(Exponential Moving Average) - 지수이동평균</h3>
+<h3 id="lwma---가중이동평균">LWMA() - 가중이동평균</h3>
 <h3 id="lrmalinear-regression-moving-average">LRMA(Linear Regression Moving Average)</h3>
 <p>정보통신기술용어해설<br>
 <a href="http://ktword.co.kr/abbr_view.php?nav=&amp;m_temp1=3665&amp;id=133">http://ktword.co.kr/abbr_view.php?nav=&amp;m_temp1=3665&amp;id=133</a></p>
