@@ -4,7 +4,7 @@
 ---
 
 <hr>
-<h2 id="title-이동평균categories-misctags-ma-moving-average">title: 이동평균<br>
+<h2 id="title-이동평균moving-averagecategories-misctags-ma-moving-average">title: 이동평균(Moving Average)<br>
 categories: MISC<br>
 tags: MA, moving average</h2>
 <p>대체 왜 안되는 거지<br>
