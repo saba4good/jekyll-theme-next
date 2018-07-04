@@ -34,17 +34,21 @@ SMA의 둔한 반응속도를 보완할 수 있는 계산방법으로, 오래된
 
 
 ### EMA(Exponential Moving Average) - 지수이동평균
-최근의 데이터에 더 높은 가중치를 부여하여 오래된 값의 가중치를 낮추는 방법으로, LWMA보다 더 민감하다. 지수가 2인 이동평균은 DEMA, 지수가 3인 이동평균은 TEMA라고 부른다.
+최근의 데이터에 더 높은 가중치를 부여하여 오래된 값의 가중치를 낮추는 방법으로, LWMA보다 더 민감하다.
+
+EMA의 수식은 아래와 같다.
 
 $$
-EMA(value, n) = \alpha \times price_i + (1 - \alpha) \times EMA(price, n)_{i-1}
+EMA(value, n)_i = \alpha \times price_i + (1 - \alpha) \times EMA(price, n)_{i-1}
 $$
 
 $$
 \alpha = \frac{2}{n+1}
 $$
 
-P는 데이터값, t는 시점, n은 이동평균기간을 의미한다.
+value는 데이터값, i는 시점, n은 이동평균기간을 의미한다.
+
+지수가 2인 이동평균은 DEMA(Double EMA), 지수가 3인 이동평균은 TEMA(Triple EMA)라고 부른다.
 
 ### LWA(Linear Weighted Average) - 선형 가중 평균
 이동 평균의 특정 기간의 종가의 합을 구한 후, 그 데이터 지점의 위치를 곱하고, 기간의 합으로 나누는 방식이다.
