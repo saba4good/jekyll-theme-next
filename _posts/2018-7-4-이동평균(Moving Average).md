@@ -42,7 +42,13 @@ $$
 
 value는 데이터값, i는 시점, n은 이동평균기간을 의미한다.
 
-지수가 2인 이동평균은 DEMA(Double EMA), 지수가 3인 이동평균은 TEMA(Triple EMA)라고 부른다.
+또한 EMA를 2번 돌린 경우 DEMA(Double EMA)가 되며, DEMA에서 EMA를 한번 더 돌릴 경우 TEMA(Triple EMA)가 된다.
+
+
+
+
+![](https://www.norwegiancreations.com/wp-content/uploads/2016/08/dema3-1140x641.png)
+청색이 본래 신호, 황색이 EMA, 적색이 DEMA 그래프이다.
 
 
 ### LRMA(Linear Regression Moving Average)
