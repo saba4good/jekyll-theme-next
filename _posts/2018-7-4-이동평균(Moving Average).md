@@ -4,8 +4,7 @@
 ---
 
 <hr>
-<h2 id="title-이동평균moving-averagedate-2018-7-3-140000categories-hardwaretags-ma-moving-average">title: 이동평균(Moving Average)<br>
-date: 2018-7-3 14:00:00<br>
+<h2 id="title-이동평균moving-averagecategories-hardwaretags-ma-moving-average">title: 이동평균(Moving Average)<br>
 categories: hardware<br>
 tags: MA, moving average</h2>
 <p>하드웨어 신호처리중 이동평균과 관련해서 몇가지를 정리한 것이다.</p>
