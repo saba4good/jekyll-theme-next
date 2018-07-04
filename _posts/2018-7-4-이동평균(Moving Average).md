@@ -44,11 +44,43 @@ value는 데이터값, i는 시점, n은 이동평균기간을 의미한다.
 
 또한 EMA를 2번 돌린 경우 DEMA(Double EMA)가 되며, DEMA에서 EMA를 한번 더 돌릴 경우 TEMA(Triple EMA)가 된다.
 
+$$
+DEMA = 2 \times EMA - EMA(EMA)
+$$
+
 
 
 
 ![](https://www.norwegiancreations.com/wp-content/uploads/2016/08/dema3-1140x641.png)
 청색이 본래 신호, 황색이 EMA, 적색이 DEMA 그래프이다.
+
+```
+int EMA_function(float alpha, int latest, int stored);
+ 
+int sensor_pin = 0;
+ 
+int ema_a = 0.06;
+int ema_ema = 0;
+int ema = 0;
+ 
+void setup() {
+}
+ 
+void loop() {
+  int sensor_value = analogRead(sensor_pin);
+   
+  ema = EMA_function(ema_a, sensor_value, ema);
+  ema_ema = EMA_function(ema_a, ema, ema_ema);
+   
+  int DEMA = 2*ema - ema_ema;
+ 
+  delay(1);
+}
+
+int EMA_function(float alpha, int latest, int stored){
+  return round(alpha*latest) + round((1-alpha)*stored);
+}
+```
 
 
 ### LRMA(Linear Regression Moving Average)
@@ -61,9 +93,11 @@ $$
 X_t = c + \sum_{i=1}^{p} \varphi_i X_{t-i} + \epsilon_t
 $$
 
+## 
 
 
 
+## 
 
 
 
