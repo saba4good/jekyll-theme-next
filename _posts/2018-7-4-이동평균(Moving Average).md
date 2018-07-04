@@ -27,7 +27,9 @@ http://www.alglib.net/time-series/moving-average-filter.php
 이동평균의 가장 일반적인 방식으로, 가장 간단하다.
 단순이동평균의 수식은 아래와 같다.
 
-
+$$
+MA(P, n) = \frac{P_t + P_t-1 + P_t-2 + ... +P_{t-n}}{n}
+$$
 
 P는 데이터값, t는 시점, n은 이동평균기간을 의미한다.
 
