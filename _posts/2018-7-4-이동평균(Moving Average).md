@@ -1,7 +1,7 @@
 ---
-title: 이동평균(Moving Average)
+title: 이동평균(Moving Average) - SMA, EMA, LWMA···
 categories: MISC
-tags: MA, moving average
+tags: moving average, SMA, EMA, LWMA
 ---
 
 http://blog.naver.com/PostView.nhn?blogId=swatpjs&logNo=220256081171
