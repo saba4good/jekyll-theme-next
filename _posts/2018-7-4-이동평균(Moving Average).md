@@ -4,7 +4,7 @@
 ---
 
 <hr>
-<p>title: 이동평균(Moving Average)<br>
+<p>title: 이동평균<br>
 categories: MISC<br>
 tags: MA, moving average</p>
 <hr>
