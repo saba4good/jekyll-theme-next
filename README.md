@@ -1,4 +1,4 @@
-## angrypig7.githu.io
+## angrypig7.github.io
 > Github page blog used for uploading personal studies.
 
 ##### Theme used - NexT
